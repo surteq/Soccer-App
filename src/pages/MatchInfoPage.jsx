@@ -29,7 +29,7 @@ export const MatchInfoPage = () => {
   if (loading) {
     return <div>A moment please...</div>;
   }
-  if (timeline.sport_event_status.status != "postponed") {
+  if (timeline.sport_event_status.status == "ended") {
     return (
       <div>
         <MatchTimeline
@@ -40,6 +40,6 @@ export const MatchInfoPage = () => {
       </div>
     );
   } else {
-    return <h1>match postponed</h1>;
+    return <h1>match {timeline.sport_event_status.status}</h1>;
   }
 };
