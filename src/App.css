@@ -1,0 +1,20 @@
+.time-line-div{
+  font-size: 20px;
+  background-color: rgba(185, 188, 195, 0.564);
+}
+
+.time-line-title{
+  font-size: 3em;
+  text-align: center;
+}
+.time-line-subtitle{
+  font-size: 2em;
+  text-align: center;
+}
+
+.date-size{
+  font-size: 1.5em!important;
+  position: absolute;
+  bottom: 20px!important;
+  right: 30px!important;
+}
