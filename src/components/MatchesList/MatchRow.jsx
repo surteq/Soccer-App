@@ -33,7 +33,7 @@ export const MatchRow = ({ match, handleSportEventSelect }) => {
             {home_score} : {away_score}
           </p>
         ) : (
-          <p>{status}</p>
+          <p>N/A</p>
         )}
       </td>
       <td>{start_time.slice(0, 10)}</td>
@@ -44,7 +44,7 @@ export const MatchRow = ({ match, handleSportEventSelect }) => {
             {match.sport_event_status.period_scores[0].away_score}
           </p>
         ) : (
-          <p>{status}</p>
+          <p>N/A</p>
         )}
       </td>
       <td>{venue_name}</td>

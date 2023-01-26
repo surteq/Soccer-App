@@ -29,7 +29,7 @@ export const MatchInfoPage = () => {
   if (loading) {
     return <div>A moment please...</div>;
   }
-  if (timeline.sport_event_status.status == "ended") {
+  if (timeline.sport_event_status.status == "closed") {
     return (
       <div>
         <MatchTimeline
